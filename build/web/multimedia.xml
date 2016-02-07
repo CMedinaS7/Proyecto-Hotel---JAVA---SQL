@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<panoramaStudioViewer>
+  <panorama>
+    <file>multimedia.jpg</file>
+    <mintilt>-20.93</mintilt>
+    <maxtilt>20.93</maxtilt>
+    <minpan>0.00</minpan>
+    <maxpan>43.82</maxpan>
+    <pan>21.91</pan>
+    <tilt>0.00</tilt>
+    <hfov>39.44</hfov>
+    <spherical>false</spherical>
+    <loadString>Loading:</loadString>
+    <title></title>
+    <quality>1</quality>
+    <autoplay>
+    </autoplay>
+    <toolbar>
+      <showToolbar>true</showToolbar>
+    </toolbar>
+    <lang>en</lang>
+  </panorama>
+</panoramaStudioViewer>

@@ -1,0 +1,18 @@
+
+.calendar .invalidday a, .calendar .invalidday a:hover { color: #fff; text-decoration: line-through;  cursor: default; font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.calendar .selectedday { border: 2px solid #EE6B1D;  }
+.calendar .today { color: #fff; background-color: #C8B18B; }
+.calendar a { padding: 0 2px; color: #fff; text-decoration: none; background-color: #73564E; display: block; }
+.calendar a:hover {  }
+.calendar table { border-collapse: collapse; font-size: 11px; width: 100%;  }
+.calendar tbody td { width: 22px; height: 20px; }
+.calendar td, .calendar th { padding: 1px; text-align: center; }
+.calendar thead td {  }
+.calendar thead td { font-weight: bold; color: #C8B188; }
+.calendar thead th a {  font-weight: bold; color: #C8B188; background-color: transparent;  }
+.calendar thead th { padding: 2px 0; vertical-align: middle;  }
+.calendar { padding: 10px; border: 1px solid #7B6456;  background: #6A4F48; width: 180px; top: 50% !important; left: 50% !important; }
+.calendaricon { cursor: pointer; }
+.calendarlink, .calendaricon { margin: 0 3px; }
+#calendar0 { margin-left: -273px; margin-top: 88px;}
+#calendar1 { margin-left: -229px; margin-top: 88px;}

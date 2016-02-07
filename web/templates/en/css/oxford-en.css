@@ -1,0 +1,38 @@
+.rezervari {background:url(../images/rezervari-en.gif);}
+ .oferte {background:url(../images/oferte-speciale-en.gif);}
+ .despre {background:url(../images/despre-noi-en.gif);}
+  #main_menu .galerie {background:url(../images/galerie-foto-en.gif); background-repeat: no-repeat; background-position: 5px 6px;}
+ .servicii {background:url(../images/servicii-en.gif);}
+ .camere {background:url(../images/tipuri-de-camere-en.gif);}
+ .contact {background:url(../images/contact-en.gif);} 
+ 
+ .formular {  width: 348px;}
+ #rezervari .nr_2 {width: 174px;}
+ ul.selectReplacement {width: 261px;}
+ #rezervari .formular input.text {width: 255px;}
+ .formular2 {width: 193px;}
+ .formular2 input.text, .formular2 textarea { width:127px; }
+ #calendar1 {margin-left:-214px;}
+ 
+ #rezervari h3 {background-image:url(../images/rezervari-h3-en.gif);}
+ #oferte h3 {background-image:url(../images/oferte-h3-en.gif);}
+ #despre h3 {background-image:url(../images/despre-h3-en.gif);}
+ #servicii h3 {background-image:url(../images/servicii-h3-en.gif);}
+ #camere h3 {background-image:url(../images/camere-h3-en.gif);}
+ #formular_contact h3 {background-image:url(../images/contact-h3-en.gif);}
+ 
+ #rezervari h2 {background-image:url(../images/rezervari-h2-en.gif);}
+ #oferte h2 {background-image:url(../images/arhitectura-en.gif);}
+ #despre h2 {background-image:url(../images/despre-h2-en.gif);}
+ #servicii h2 {background-image:url(../images/servicii-h2-en.gif);}
+ #camere h2 {background-image:url(../images/camere-h2-en.gif);}
+ #formular_contact h2 {background-image:url(../images/contact-h2-en.gif);}
+ #contact_link { background-image:url(../images/locatie-en.gif);  width: 77px;   }
+
+ .confirmare h4 { background-image:url(../images/confirmare-en.gif);}
+ .eroare h4 { background-image:url(../images/eroare-en.gif);} 
+ 
+ .confirmare .inchide {background-image:url(../images/inchide_confirmare-en.gif);}
+  .eroare .inchide {background-image:url(../images/inchide_eroare-en.gif);}
+ 
+

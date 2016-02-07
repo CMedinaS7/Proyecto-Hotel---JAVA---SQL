@@ -1,0 +1,183 @@
+ * {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ border: 0;
+ background-repeat: no-repeat;
+ text-decoration: none;
+ outline: none;
+ }
+ a:link, a:visited, a:hover, a:active {color: #C8B18B;}
+ .link:hover {text-decoration: underline;}
+ img {display: block;}
+ input.text, textarea {background-color: #694f47; color: #f8f3ea; font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+ em {font-style: normal; font-weight: bold;}
+ 
+ body {background-color: #C7B18B; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 21px; }
+
+ .clearer { height: 0.1em; clear: both;}
+
+ #container {width: 830px; height: 555px; margin: 0 auto;  position: absolute; top: 50%; left: 50%; margin-left: -415px; margin-top: -261px;  }
+ #wrapper { background:url(../images/bg_middle.gif); }
+ #page { background-image:url(../images/bg_top.gif);   }
+ #page_top {background-image:url(../images/bg_bottom.gif); background-position: left bottom; padding: 5px 5px 4px;  }
+ #page_bottom {border: 1px solid #DED1B8; }
+ #real_page {background: #f8f3ea; height: 494px; position: relative; overflow: hidden; border: 9px solid #CFBD9C; }
+ 
+ h1 {width: 174px; height: 174px;  position: absolute; top: 218px; left:416px; z-index: 10000; }
+ h1 a {text-indent: -3000px; overflow: hidden; background:url(../images/oxford.gif); display: block; height: 100%; width: 100%;}
+ h2 {width: 246px; height: 248px; position: absolute; top: 0; right: 0; text-indent: -3000px; overflow: hidden; }
+ h3 {height: 14px; text-indent: -3000px; overflow: hidden; margin-bottom: 12px;}
+ h4 {font-size: 10px;}
+ h4.noutati {margin-bottom: 5px;}
+ 
+ #main_menu {width: 142px; position: absolute; top: 232px; left: 603px; padding: 1px 0 0; background:url(../images/dot_hor.gif); background-repeat: repeat-x;}
+ #main_menu li {padding: 0 0 1px; background:url(../images/dot_hor.gif); background-repeat:repeat-x; background-position: left bottom; width: 100%; float: left;}
+ #main_menu a:link, #main_menu a:visited, #main_menu a:active {display: block; height: 20px; background-position: -137px 6px; text-indent: -3000px; background-repeat: no-repeat;  }
+ #main_menu a:hover, #main_menu a#hovered:link, #main_menu a#hovered:visited, #main_menu a#hovered:active {background-position: 5px 6px;}
+ .rezervari {background:url(../images/rezervari.gif);}
+ .oferte {background:url(../images/oferte-speciale.gif);}
+ .despre {background:url(../images/despre-noi.gif);}
+  #main_menu .galerie {background:url(../images/galerie-foto.gif); background-repeat: no-repeat; background-position: 5px 6px;}
+ .servicii {background:url(../images/servicii.gif);}
+ .camere {background:url(../images/tipuri-de-camere.gif);}
+ .contact {background:url(../images/contact.gif);} 
+ 
+ #contents_wrapper {width: 494px; height: 494px;  position: absolute; overflow: hidden;}
+ #contents {width: 3952px; height: 100%; position: relative;}
+ .content {width: 494px;  position: absolute; overflow: hidden; }
+ #home {
+	left: 0px;
+	top: 0px;
+}
+ 
+ #rezervari {left: 494px; top: 0; background-color: #2F1312; background-image:url(../images/rezervari_thumb.jpg); padding: 248px 0 0;}
+ #rezervari h2 { background-image:url(../images/rezervari-h2.gif); background-position: center center;}
+ #rezervari .description {background-color: #5B423B; height: 170px; padding: 38px 125px 38px 40px; color: #c8b18b;}
+ #rezervari h3 {background-image:url(../images/rezervari-h3.gif); height: 18px;}
+ 
+ 
+ #oferte {left: 988px; top: 0; background-color: #40452F; background-image:url(../images/oferte_thumb.jpg); padding: 248px 0 0;}
+ #oferte h2 { background-image:url(../images/arhitectura.gif); background-position: center center;}
+ #oferte .description {background-color: #6f765e; height: 170px; padding: 38px 125px 38px 40px; color: #c8b18b;}
+ #oferte h3 {background-image:url(../images/oferte-h3.gif);}
+ 
+ #despre {left: 1482px; top: 0; background-color: #2c1e16; background-image:url(../images/despre_thumb.jpg); padding: 248px 0 0;}
+ #despre h2 {background-image:url(../images/despre-h2.gif); background-position: center center;}
+ #despre .description {background-color: #4f4138; height: 170px; padding: 38px 105px 38px 40px; color: #c8b18b;}
+ #despre h3 { background-image:url(../images/despre-h3.gif);}
+ 
+ #galerie {left: 1976px; top: 0; height: 494px; overflow: hidden;    }
+ #fotos_nav {position: absolute; top: 218px; left: 0;  z-index: 20;}
+  #fotos_nav li {width: 87px; height: 86px; margin-bottom: 1px; float: left; clear: left;}
+ #fotos_nav  a {display: block; width: 87px; height: 86px; cursor: pointer; }
+ #foto_inapoi { background-image:url(../images/up.png); visibility: hidden;}
+ #foto_inainte { background-image:url(../images/down.png);}
+ #fotos_wrapper {width: 494px; height: 494px; overflow: hidden; position: absolute; top: 0; left: 0;}
+ #fotos {  width: 494px; position: absolute; top: 0; left: 0;  }
+ #fotos li { position: relative; left: 0; top: 0; float: left; clear: left; }
+ #fotos li img {display: block;}
+ #fotos li span {height: 23px; width: 247px; background-color: #000; color: #fff; line-height: 23px; font-weight: normal;  text-indent: 8px; display: block; position: absolute; left: 0; bottom: 0;}
+
+ 
+ #fotos_nav2 {position: fixed;  top: 50%; left: 50%; z-index: 200; width: 494px; height: 23px;  margin-left: -400px; margin-top: 225px; visibility: hidden; }
+ #galerie:hover #fotos_nav2 {visibility: visible;} 
+ 
+ #fotos_nav2 ul {float: right; padding: 5px;}
+ #fotos_nav2 li {float: left; padding-right: 1px;}
+ #fotos_nav2 li a:link, #fotos_nav2 li a:visited , #fotos_nav2 li a:active, #fotos_nav2 li a#selectat {color: #fff; display: block; width: 13px; height: 13px; text-align: center; line-height: 13px; font-family: 'Trebuchet Ms'; background-image:url(../images/nav_bg.png);}
+  #fotos_nav2 li a:hover, #fotos_nav2 li a#selectat { background-color: #000 !important; background-image: none !important; }
+ #fotos_nav2 h4 {height: 23px; width: 247px; background-color: #000; color: #fff; line-height: 23px; font-weight: normal; float: left; text-indent: 8px;} 
+ 
+ 
+ #servicii {left: 2470px; top: 0; background-color: #211231; background-image:url(../images/servicii_thumb.jpg); padding: 248px 0 0;}
+ #servicii h2 { background-image:url(../images/servicii-h2.gif); background-position: center center;}
+ #servicii .description {background-color: #4A4252; height: 170px; padding: 38px 125px 38px 40px; color: #c8b18b;}
+ #servicii h3 {background-image:url(../images/servicii-h3.gif);}
+ #servicii ul {line-height: 19px;}
+ 
+ #camere {left: 2964px; top: 0; background-color: #2B3E44; background-image:url(../images/camere_thumb.jpg); padding: 248px 0 0;}
+ #camere h2 { background-image:url(../images/camere-h2.gif); background-position: center center;}
+ #camere .description {background-color: #616362; height: 170px; padding: 38px 105px 38px 40px; color: #c8b18b;}
+ #camere h3 {background-image:url(../images/camere-h3.gif);}
+ #camere dt, #camere dd {display: inline; }
+ #camere dt { color: #fff;}
+ #camere dl, #camere p {line-height: 14px ; }
+ #tipuri_camere {padding: 7px 0;}
+ 
+ #contact { left: 3458px;  top: 0; height: 494px; overflow: hidden;}
+ #formular_contact {position: absolute; left: 0;  top: 0; background-color: #24201D; background-image:url(../images/contact_thumb.jpg); padding: 248px 0 0; height: 246px; overflow: hidden; width: 494px; }
+ #formular_contact h2 { background-image:url(../images/contact-h2.gif); background-position: center center;}
+ #formular_contact .description {background-color: #4C413F; height: 170px; padding: 38px 125px 38px 40px; color: #c8b18b;}
+ #formular_contact h3 {background-image:url(../images/contact-h3.gif); position: relative; top: 0; left: 0; display: block; width: 200px;}
+ #contact_link { background-image:url(../images/locatie.gif); display: block; text-indent: -3000px; overflow: hidden; width: 96px; height: 33px; margin-top: 3px;   }
+ #contact_link:hover {background-position: 0 -33px;}
+ 
+ #locatie {position: absolute; left: 0; top: 494px; background-color: #585047; height: 494px; width: 494px;}
+ #locatie img {cursor: pointer;}
+ 
+ .formular {width: 333px;}
+ .formular label {display: block; float: left; clear: both;  white-space: nowrap;}
+ .formular span {display: block; float: right;  background-color: #694f47; padding: 3px; margin: 0 0 4px; }
+ .formular input.text, .formular textarea {width: 243px; background-color: #694f47; display: block; color: #fff;}
+  .formular2 {width: 193px; float: left;}
+ .formular2 input.text,  .formular2 textarea {width: 147px;}
+ input.button {float: right;}
+ .formular textarea {height: 50px; overflow: auto;}
+ #rezervari .formular  input.text {width: 240px;}
+ #rezervari .nr {width: 100%; float: left;}
+ #rezervari .formular .nr input.text {width: 73px;}
+ #rezervari .nr_1 {float: left; width: 166px;  }
+ #rezervari .nr_2 {float: right; width: 159px;  }
+ #rezervari .nr span { position: relative; top: 0; left: 0;}
+ #rezervari .nr_1 iframe {top: 10px; left: 10px;}
+  .rezervari_select {width: 100%; float: left; position: relative; left: 0; top: 0; padding-bottom: 4px; z-index: 100;}
+  iframe {visibility: visible; z-index: 999; position: absolute; top: -5000px; left: -5000px;  width: 205px; height: 194px; overflow: hidden;}
+  select { display: block; width: 246px; position: absolute; top: 0; left: 87px; }
+  select.replaced { display: none; }
+  ul.selectReplacement { overflow: visible; width: 246px; float: right;  position: absolute; top: 0; left: 87px; z-index: 100;}
+  ul.selectReplacement li { background: #432C26; color: #fff; cursor: pointer; display: none; font-size: 10px;padding-left: 5px;}
+  ul.selectOpen li {display: block;}
+  ul.selectReplacement li.selected { background-color: #6A4F48; background-image:url(../images/select_arrow.gif); background-position: center right; background-repeat: no-repeat; color: #fff; display: block; }
+  ul.selectOpen li.selected { background: #301D17; display: block;}
+  ul.selectOpen li:hover, ul.selectOpen li.hover, ul.selectOpen li.selected:hover { background: #301D17; color: #fff; }
+  
+  #footer {position: relative; top: 0; left: 0;  color: #978158; font-size: 9px;  padding: 8px 5px 0 0;  background: #C7B18B;}
+  #footer #desero {text-indent: -3000px; overflow: hidden; width: 73px; height: 10px; background-image:url(../images/desero.gif); background-position: 0 0 ; position: absolute; right: 5px; top: 8px; display: block;}
+  #footer #desero:hover {background-position: 0 -10px;}
+  #footer p {float: right; margin: -1px 0 0 0; background-image:url(../images/footer_bg.gif); background-position: left center; padding: 0 100px 0 6px; line-height: 16px;}
+  #lang {float: left; margin: 3px 0 0 5px; display: inline;}
+  #lang span, #lang a {display: block; height: 9px; text-indent: -3000px; background-position: 0 -9px; overflow: hidden;}
+  #lang span, #lang a:hover { background-position: 0 0;}
+  #lang li {float: left; padding: 0 13px 0 0;}
+  .ro {background-image:url(../images/romana.gif); width: 33px;}
+  .en {background-image:url(../images/english.gif); width: 28px;}
+  .footer:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+  
+   .alert_wrapper { position: relative; top: 0; left: 0; z-index: 1000; width: 100%; float: left;}
+  .confirmare, .eroare {width: 269px; height: 88px; border: 1px solid #9A835E; background-color: #2D331F; position: absolute; top: 0; left: 43px; padding: 15px; z-index: 1000;  }
+  .eroare {background-color: #6B3030;}
+  .confirmare h4, .eroare h4 {height: 18px; text-indent: -3000px; overflow: hidden;}
+  .confirmare h4 { background-image:url(../images/confirmare.gif);}
+  .eroare h4 { background-image:url(../images/eroare.gif);} 
+  .confirmare p, .eroare p {line-height: 14px;}
+  .confirmare .inchide, .eroare .inchide {display: block; text-indent: -3000px; width: 92px; height: 17px; overflow: hidden; position: absolute; top: 83px; left: 15px;  }
+  .confirmare .inchide {background-image:url(../images/inchide_confirmare.gif);}
+  .eroare .inchide {background-image:url(../images/inchide_eroare.gif);}
+
+  .inchide_btn { position: absolute; top: 83px; left: 15px;}
+
+ .loading {width:370px; display:block; height:120px; background-position:center;}
+ #rezervari .loading {color:#5B423B; background-image:url(../images/loader_rezervari.gif); }
+ #contact .loading {color:#4C413F; background-image:url(../images/loader_contact.gif);}
+ .foto {background-image:url(../images/loader_contact.gif); background-position: center; background-color: #4C413F;}
+ 
+ #contact_div {width: 370px;}
+ #contact_info {padding-left: 15px; float: left; width: 150px; white-space:normal;  line-height: 18px;}
+ 
